@@ -1,0 +1,24 @@
+{
+    "user": "GfGfGfAs",
+    "repo": "RNPC",
+    "include_path": "include",
+    "resources": [
+        {
+			"name": "linux.tar.gz",
+            "platform": "linux",
+            "archive": true,
+            "includes": [""],
+            "plugins": ["RNPC.so"]
+        },
+        {
+			"name": "win.zip",
+            "platform": "windows",
+            "archive": true,
+            "includes": [""],
+            "plugins": ["RNPC.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["GfGfGfAs/RNPC"]
+    }
+}
